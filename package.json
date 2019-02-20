@@ -1,0 +1,7 @@
+{
+  "name": "githubPrToSlack",
+  "version": "0.0.1",
+  "dependencies": {
+    "@slack/client": "^4.9.0"
+  }
+}
