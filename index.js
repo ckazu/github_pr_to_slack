@@ -36,7 +36,7 @@ exports.githubPrToSlack = async (req, res) => {
 };
 
 fetchPullRequests = async(query) => {
-  return await octokit.search.issuesAndPullRequests({ q: query, state: 'open', sort: 'created', order: 'desc', per_page: 100 })
+  return await octokit.search.issuesAndPullRequests({ q: query, state: 'open', sort: 'created', order: 'asc', per_page: 100 })
     .catch((error) => { console.error('octokit.search.issuesAndPullrequests', error); return error; });
 };
 
