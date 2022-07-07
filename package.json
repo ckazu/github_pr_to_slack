@@ -4,6 +4,6 @@
   "dependencies": {
     "@octokit/rest": "^16.16.0",
     "@slack/client": "^4.9.0",
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   }
 }
